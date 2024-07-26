@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from "../assets/heroImage.png";
+import heroImage from "src/assets/heroImage.png";
 import { IoMdArrowDropright } from "react-icons/io";
 import { Link } from "react-scroll";
 
