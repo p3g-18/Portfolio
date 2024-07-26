@@ -1,5 +1,5 @@
 import React from "react";
-import photo from "../assets/heroImage.png";
+import heroImage from "../assets/heroImage.png";
 import { IoMdArrowDropright } from "react-icons/io";
 import { Link } from "react-scroll";
 
@@ -35,7 +35,7 @@ const Home = () => {
         </div>
         <div className="w-full md:w-1/2 flex justify-center mb-8 md:mb-0">
           <img
-            src={photo}
+            src={heroImage}
             alt="profile"
             className="w-2/3 md:w-full h-auto rounded-2xl"
           />
