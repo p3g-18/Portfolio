@@ -64,9 +64,15 @@ const Projects = () => {
                       Github Repo
                     </button>
                   </a>
-                  <button className=" font-semibold shadow-md rounded-xl bg-blue-600 w-50 p-2 m-4 hover:animate-pulse hover:bg-orange-500 duration-500">
-                    Live Demo
-                  </button>
+                  <a
+                    href="https://mutubee.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button className=" font-semibold shadow-md rounded-xl bg-blue-600 w-50 p-2 m-4 hover:animate-pulse hover:bg-orange-500 duration-500">
+                      Live Demo
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
