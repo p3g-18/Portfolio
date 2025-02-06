@@ -1,6 +1,7 @@
 import React from "react";
 import mutube from "../assets/Projects/mutube.png";
 import food from "../assets/Projects/Food_Ordering_App.png";
+import movielist from "../assets/Projects/movielist.png";
 
 const Projects = () => {
   return (
@@ -19,6 +20,65 @@ const Projects = () => {
         </div>
         <div className="w-full">
           <div className="flex flex-col gap-8">
+            <div className="flex flex-col md:flex-row items-center p-4">
+              <img
+                className=" h-64 md:h-96 w-full md:w-1/2 object-cover rounded-lg"
+                src={movielist}
+                alt="MovieList"
+              />
+              <div className="md:ml-4 mt-4 md:mt-0 text-left">
+                <h2 className="text-4xl font-bold">MovieList</h2>
+                <p className="text-lg mt-2">
+                  MovieList is a dynamic movie database platform featuring
+                  Firebase-powered authentication and Gemini AI-driven search
+                  functionality. Users can securely sign in, search for movies,
+                  and explore detailed descriptions, ratings, and trailers,
+                  providing a comprehensive film discovery experience.
+                </p>
+                <div className="flex flex-wrap gap-2 py-2">
+                  <button className=" bg-purple-500 text-black rounded-lg p-2">
+                    React
+                  </button>
+
+                  <button className=" bg-purple-500 text-black rounded-lg p-2">
+                    Tailwind
+                  </button>
+
+                  <button className=" bg-purple-500 text-black rounded-lg p-2">
+                    React-Router
+                  </button>
+
+                  <button className=" bg-purple-500 text-black rounded-lg p-2">
+                    Redux
+                  </button>
+                  <button className=" bg-purple-500 text-black rounded-lg p-2">
+                    Firebase
+                  </button>
+                </div>
+                <div className="px-1/2 items-center">
+                  <a
+                    href="https://github.com/p3g-18/movies"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {" "}
+                    <button className="  font-semibold shadow-md rounded-xl bg-blue-600 w-50 p-2 m-4 hover:animate-pulse hover:bg-orange-500 duration-500">
+                      Github Repo
+                    </button>
+                  </a>
+                  <a
+                    href="https://movielist-70ea1.web.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button className=" font-semibold shadow-md rounded-xl bg-blue-600 w-50 p-2 m-4 hover:animate-pulse hover:bg-orange-500 duration-500">
+                      Live Demo
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
             <div className="flex flex-col md:flex-row items-center p-4">
               <img
                 className=" h-64 md:h-96 w-full md:w-1/2 object-cover rounded-lg"
